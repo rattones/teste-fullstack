@@ -9,7 +9,7 @@ class Cadastros extends Model
   protected $table= 'cadastro';
 
   protected $fillable = [
-    'id', 'nome', 'email', 'telefone', 'created_ad', 'update_at',
+    'id', 'nome', 'email', 'data_nascimento', 'telefone', 'created_ad', 'update_at',
   ];
 
   protected $keyType = 'string';

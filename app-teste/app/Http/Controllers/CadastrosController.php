@@ -20,6 +20,7 @@ class CadastrosController extends Controller
     $cadastro->id= uniqid();
     $cadastro->nome= $request->input('nome');
     $cadastro->email= $request->input('email');
+    $cadastro->data_nascimento= $request->input('data_nascimento');
     $cadastro->telefone= $request->input('telefone');
 
     $cadastro->save();
@@ -48,6 +49,9 @@ class CadastrosController extends Controller
     $cadastro->email= (!empty($request->input('email')))?
       $request->input('email'):
       $cadastro->email;
+    $cadastro->data_nascimento= (!empty($request->input('data_nascimento')))?
+      $request->input('data_nascimento'):
+      $cadastro->data_nascimento;
     $cadastro->telefone= (!empty($request->input('telefone')))?
       $request->input('telefone'):
       $cadastro->telefone;
