@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../assets/imagens/rodape-desktop.jpg') no-repeat center;
+  background-size: cover;
+  height: 250px;
+  padding-top: 20px;
+}
+.footer spam {
+  margin-top: 25px;
+
+}

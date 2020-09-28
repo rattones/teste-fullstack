@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../assets/imagens/index-image.jpg') no-repeat center;
+  background-size: cover;
+  height: 650px;
+}
+.header .topo-action {
+  height: 50px;
+  position: fixed;
+  z-index: 99;
+  top: 85%;
+  left: 85%;
+  cursor: pointer;
+}
+.header .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  margin-top: 15px;
+}
+.header .top img {
+  height: 25px;
+}
+.header .top .menu a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .top .menu ul li {
+  display: inline;
+  margin-left: 25px;
+}
+.header .titulo {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  width: 50%;
+  margin-top: 150px;
+}
+.header .titulo .tit-principal {
+  padding: 0;
+  text-align: left;
+  font-size: 56px;
+}
+.header .titulo .tit-secundario {
+  padding: 0;
+  text-align: left;
+  font-size: 25px;
+}
